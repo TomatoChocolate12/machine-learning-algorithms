@@ -1,1 +1,33 @@
-This folder should contain all the models you have implemented. For each model, you should implement a class for it in the `<model>.py` file. Although you need not make separate files for it, train, val and test should be implemented in a clear distinctive way as separate routines within the class.
+This repository contains all the algorithms implemented as a part of the "Statistical Methods in AI" course at IIIT Hyderabad. The directory tree looks like the following:
+
+```
+.
+├── cnn
+│   ├── cnn.py
+│   ├── multilabel-cnn.py
+│   └── multilabel_cnn.py
+├── linear_regression
+│   ├── best_model_lr.pkl
+│   └── linear_regression.py
+├── README.md
+├── rnn
+│   ├── cnn_rnn.py
+│   └── rnn.py
+├── pca
+│   └── pca.py
+├── mlp
+│   └── mlp.py
+├── knn
+│   └── knn.py
+├── kde
+│   └── kde.py
+├── clustering
+│   ├── gmm.py
+│   └── kmeans.py
+└── autoencoder
+    ├── autoencoder.py
+    ├── cnn-autoencoder.py
+    ├── cnn_autoencoder.py
+    ├── pca-autoencoder.py
+    └── pca_autoencoder.py
+```
